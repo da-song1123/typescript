@@ -1,0 +1,22 @@
+{
+    // 어디에 파일이 존재 ?
+    "include": [
+        // 타입스크립트가 src의 모든 파일을 확인
+        "src"
+    ],
+    "compilerOptions": {
+        // 자바스크립트 파일이 생성될 디렉토리
+        "outDir": "bulid",
+        // 어떤 버전의 자바스크립트로 타입스크립트를 컴파일 할 것인지
+        "target": "ES6",
+        // 목표로 하는 실행 환경
+        // 어디에서 자바스크립트 코드가 동작하는지
+        // ES6, DOM(브라우저)
+        "lib": ["ES6"],
+        "strict": true,
+        // 타입스크립트와 자바스크립트를 같이 사용할 수 있다.
+        // "allowJs": true,
+        "esModuleInterop": true,
+        "module": "CommonJS"
+    }
+}
